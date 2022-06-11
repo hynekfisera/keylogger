@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# log
+log.html
+
+# screenshots
+/screenshots
